@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx mocha",
+    "report": "npx mocha --reporter mochawesome",
     "lint:check": "prettier --check --ignore-path .gitignore .",
     "lint:format": "prettier --write --ignore-path .gitignore .",
     "prepare": "husky",
