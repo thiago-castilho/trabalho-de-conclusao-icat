@@ -4,12 +4,12 @@ Os requisitos e critérios de avaliação deste trabalho podem ser consultados e
 
 ➡️ [DESAFIO.md](./DESAFIO.md)
 
-[] Sobre o Projeto
-[] Tecnologias Utilizadas
-[] Pré-requisitos
-[] Instalação
-[] Execução Local
-[] Execução dos Testes
-[] Pipeline CI/CD
-[] Estrutura do Projeto
-[] Autor
+- [ ] Sobre o Projeto
+- [ ] Tecnologias Utilizadas
+- [ ] Pré-requisitos
+- [ ] Instalação
+- [ ] Execução Local
+- [ ] Execução dos Testes
+- [ ] Pipeline CI/CD
+- [ ] Estrutura do Projeto
+- [ ] Autor
