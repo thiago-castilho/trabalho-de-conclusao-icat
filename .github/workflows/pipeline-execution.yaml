@@ -41,8 +41,12 @@ jobs:
         run: npm run test
 
       - name: Gerando relatório de testes
+        run: npm run report
+        if: ${{ always() }}
+
+      - name: Salvando relatório
         uses: actions/upload-artifact@v6
         if: ${{ always() }}
         with:
           path: ./mochawesome-report
-          name: Relatório de testes unitários
+          name: relatorio-testes-unitarios
