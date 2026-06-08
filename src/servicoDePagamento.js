@@ -3,7 +3,7 @@ export default class ServicoDePagamento {
 
   constructor() {
     this.#pagamentos = [];
-  };
+  }
 
   pagar(codigoDeBarras, empresa, valor) {
     const categoria = valor > 100 ? 'cara' : 'padrão';
@@ -12,9 +12,9 @@ export default class ServicoDePagamento {
       codigoDeBarras,
       empresa,
       valor,
-      categoria
+      categoria,
     });
-  };
+  }
   consultarUltimoPagamento() {
     return this.#pagamentos.at(-1);
   }

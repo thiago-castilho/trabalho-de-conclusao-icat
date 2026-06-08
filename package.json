@@ -4,7 +4,9 @@
   "description": "Os requisitos e critérios de avaliação deste trabalho podem ser consultados em:",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha"
+    "test": "npx mocha",
+    "lint:check": "prettier --check --ignore-path .gitignore .",
+    "lint:format": "prettier --write --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
   "dependencies": {
     "mocha": "^8.1.3",
     "mochawesome": "^7.1.4"
+  },
+  "devDependencies": {
+    "prettier": "3.8.3"
   }
 }

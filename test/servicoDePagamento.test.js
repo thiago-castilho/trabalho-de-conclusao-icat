@@ -1,4 +1,4 @@
-import ServicoDePagamento from "../src/servicoDePagamento.js";
+import ServicoDePagamento from '../src/servicoDePagamento.js';
 import assert from 'node:assert';
 
 describe('Testes do módulo de Serviços de Pagamentos', () => {
@@ -15,7 +15,7 @@ describe('Testes do módulo de Serviços de Pagamentos', () => {
       codigoDeBarras,
       empresa,
       valor,
-      categoria: 'padrão'
+      categoria: 'padrão',
     });
   });
 
@@ -23,7 +23,7 @@ describe('Testes do módulo de Serviços de Pagamentos', () => {
     const servicoDePagamento = new ServicoDePagamento();
     const codigoDeBarras = '2345-6789-0123';
     const empresa = 'Internet';
-    const valor = 100.00;
+    const valor = 100.0;
 
     servicoDePagamento.pagar(codigoDeBarras, empresa, valor);
     const ultimoPagamento = servicoDePagamento.consultarUltimoPagamento();
@@ -32,7 +32,7 @@ describe('Testes do módulo de Serviços de Pagamentos', () => {
       codigoDeBarras,
       empresa,
       valor,
-      categoria: 'padrão'
+      categoria: 'padrão',
     });
   });
 
@@ -49,7 +49,7 @@ describe('Testes do módulo de Serviços de Pagamentos', () => {
       codigoDeBarras,
       empresa,
       valor,
-      categoria: 'cara'
+      categoria: 'cara',
     });
   });
 
@@ -57,7 +57,7 @@ describe('Testes do módulo de Serviços de Pagamentos', () => {
     const servicoDePagamento = new ServicoDePagamento();
 
     servicoDePagamento.pagar('1234-5678-9012', 'SABESP', 99.99);
-    servicoDePagamento.pagar('2345-6789-0123', 'Internet', 100.00);
+    servicoDePagamento.pagar('2345-6789-0123', 'Internet', 100.0);
     servicoDePagamento.pagar('3456-7890-1234', 'ENEL', 100.01);
     servicoDePagamento.pagar('4567-8901-2345', 'Gás', 130);
 
@@ -67,7 +67,7 @@ describe('Testes do módulo de Serviços de Pagamentos', () => {
       codigoDeBarras: '4567-8901-2345',
       empresa: 'Gás',
       valor: 130,
-      categoria: 'cara'
+      categoria: 'cara',
     });
   });
 });
