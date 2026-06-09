@@ -50,21 +50,21 @@ A pipeline deve permitir execução através de:
 
 ### Execução da Pipeline
 
-- [ ] Execução manual (`workflow_dispatch`)
-- [ ] Execução agendada (`schedule`)
-- [ ] Execução automática via Push (`push`)
+- [ X ] Execução manual (`workflow_dispatch`)
+- [ X ] Execução agendada (`schedule`)
+- [ X ] Execução automática via Push (`push`)
 
 ### Testes Automatizados
 
-- [ ] Execução dos testes automatizados
-- [ ] Validação do resultado da execução
-- [ ] Pipeline finalizando com sucesso
+- [ X ] Execução dos testes automatizados
+- [ X ] Validação do resultado da execução
+- [ X ] Pipeline finalizando com sucesso
 
 ### Relatórios
 
-- [ ] Geração de relatório dos testes
-- [ ] Upload do relatório como artefato
-- [ ] Disponibilização para download na execução da pipeline
+- [ X ] Geração de relatório dos testes
+- [ X ] Upload do relatório como artefato
+- [ X ] Disponibilização para download na execução da pipeline
 
 ### Documentação
 
@@ -81,9 +81,9 @@ A pipeline deve permitir execução através de:
 | -------------------- | -------------- |
 | Controle de Versão   | Git / GitHub   |
 | CI/CD                | GitHub Actions |
-| Testes Automatizados | _(Preencher)_  |
-| Relatórios           | _(Preencher)_  |
-| Linguagem            | _(Preencher)_  |
+| Testes Automatizados | Mocha          |
+| Relatórios           | Mochawesome    |
+| Linguagem            | JavaScript     |
 
 ---
 
