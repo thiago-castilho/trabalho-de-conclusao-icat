@@ -50,21 +50,21 @@ A pipeline deve permitir execução através de:
 
 ### Execução da Pipeline
 
-- [ X ] Execução manual (`workflow_dispatch`)
-- [ X ] Execução agendada (`schedule`)
-- [ X ] Execução automática via Push (`push`)
+- [x] Execução manual (`workflow_dispatch`)
+- [x] Execução agendada (`schedule`)
+- [x] Execução automática via Push (`push`)
 
 ### Testes Automatizados
 
-- [ X ] Execução dos testes automatizados
-- [ X ] Validação do resultado da execução
-- [ X ] Pipeline finalizando com sucesso
+- [x] Execução dos testes automatizados
+- [x] Validação do resultado da execução
+- [x] Pipeline finalizando com sucesso
 
 ### Relatórios
 
-- [ X ] Geração de relatório dos testes
-- [ X ] Upload do relatório como artefato
-- [ X ] Disponibilização para download na execução da pipeline
+- [x] Geração de relatório dos testes
+- [x] Upload do relatório como artefato
+- [x] Disponibilização para download na execução da pipeline
 
 ### Documentação
 
